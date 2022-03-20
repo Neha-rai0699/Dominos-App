@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo image{
+    width: 30%;
+    border: 3px rgb(167, 47, 47);
+    border-radius: 50px;
+}
+
+.navbar{
+    display:flex;
+    position: sticky;
+}
+
+.nav-list{
+    width: 100%;
+    background-color:whitesmoke;
+    display: flex;
+    align-items: right;
+    padding: 10px;
+    font-family:'Times New Roman', Times, serif;
+    font: 100;
+    border: 15px;
+
+
+}
+.nav-list li{
+    list-style: none;
+    padding: 30px 30px;
+    text-align:center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+ .nav-list li a{
+     text-decoration: none;
+     font-size: medium;
+     text-align: right;
+     font-size: large;
+ }
+ .nav-list li a:hover{
+    text-decoration: none;
+    color: blue;
+        
+
+ }
+ 
+ .rightNav{
+     width:50%;
+     text-align: right;
+     background-color:whitesmoke;
+     position: sticky;
+ }
+
+ #Search{
+     padding: 5px;
+     font-size: 20px;
+     border: 4px solid blue;
+     border-radius: 10px;
+     margin-top: 15px;
+ }
+
+ .background{
+     background: rgba(0,0,0, 0.7)url('../image/bd-img.jpg');
+     background-size: cover;
+     background-blend-mode: darken;
+ }
+ .box-main{
+     height: 80%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: darkblue;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     max-width: 50%;
+     margin: auto;
+     padding: 30px 30px;
+     
+    
+
+ }
+
+ .firstSection{
+    height: 100vh;
+}
+
+ .form{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: white;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     text-align: center;
+     font-size: 20px;
+     width:50%;
+     flex-direction: column;
+
+ }
+
+
+ .login{  
+    width: 382px;  
+    overflow: hidden;  
+    margin: auto;  
+    margin: 20 0 0 450px;  
+    padding: 80px;  
+    background: #23463f;  
+    border-radius: 15px ;  
+      
+}  
+h2{  
+    text-align: center;  
+    color:white;  
+    padding: 20px;  
+}  
+label{  
+    color: white;  
+    font-size: 17px;  
+}  
+#Uname{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 18px; 
+   
+}  
+#Pass{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 18px; 
+    
+}  
+#log{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: blue;  
+  
+  
+}  
+span{  
+    color: white;  
+    font-size: 17px;  
+}  
+
+ 
+
+ 

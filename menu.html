@@ -1,0 +1,311 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>order page</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./menu.css">
+    
+</head>
+<body>
+  
+
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+
+        <ul class="navbar-nav background">
+            <li class="nav-item pr-3">
+              <a class="nav-link text-white veg" href="#veg">Veg</a>
+            </li>
+            <li class="nav-item pr-3">
+              <a class="nav-link text-white" href="#NonVeg">Non Veg</a>
+            </li>
+            <li class="nav-item pr-3">
+              <a class="nav-link text-white" href="Mania">Pizza Mania</a>
+            </li>
+            <li class="nav-item pr-3">
+              <a class="nav-link text-white" href="#desserts">Desserts</a>
+            </li>
+      </ul>
+    </div>
+  </nav>
+
+<!-- <ngb-carousel>
+      <ng-template ngbSlide>
+        <div class="picsum-img-wrapper">
+          <img src="./pics/p1.jpeg" class="mar">
+        </div>
+        <div class="carousel-caption">
+          <h3>10 seconds between slides...</h3>
+          <p>This carousel uses customized default values.</p>
+        </div>
+      </ng-template>
+      <ng-template ngbSlide>
+        <div class="picsum-img-wrapper">
+          <img src="./pics/p2.png" class="mar">
+        </div>
+        <div class="carousel-caption">
+          <h3>No mouse events...</h3>
+          <p>This carousel doesn't pause or resume on mouse events</p>
+        </div>
+      </ng-template>
+      <ng-template ngbSlide>
+        <div class="picsum-img-wrapper">
+          <img src="./../../assets/upd.jpg" class="mar">
+          
+        </div>
+        <div class="carousel-caption">
+          <h3>No keyboard...</h3>
+          <p>This carousel uses customized default values.</p>
+        </div>
+      </ng-template>
+      <ng-template ngbSlide>
+        <div class="picsum-img-wrapper">
+          <img src="./../../assets/ro.jpg" class="mar">
+        </div>
+        <div class="carousel-caption">
+          <h3>And no wrap after last slide.</h3>
+          <p>This carousel uses customized default values.</p>
+        </div>
+      </ng-template>
+    </ngb-carousel> -->
+
+    
+    <div class="container-fluid">
+      <h2 class="mm">Offers</h2><hr>
+      <div class="row">
+        <div class="col-10 mx-auto">
+          <div class="row">
+            <div class="col-sm-4 p-3 mt-5 Re"><img src="./image/Farmhouse.jpg" class="img-responsive w-100">
+              <span><div class="box">
+                <h3 class="hh">VEG PIZZA</h3>
+                
+                <button class="but">View Details</button>
+                <button onclick= "Details"></button>
+                <price>250 Rs</price>
+          <ingredients><li>olives</li>
+            <li>Onion</li>
+            <li>Corn</li>
+          </ingredients>
+              </div>
+            </span>
+          </div>
+            <div class="col-sm-4 p-3 mt-5"><img src="./image/Chicken_Golden_Delight.jpg" class="img-responsive w-100">
+              <span><div class="box">
+                <h3 class="hh">NON VEG PIZZA</h3>
+            
+                <button class="but">View Details</button>
+                <button onclick= "Details"></button>
+                <price>150 Rs</price>
+          <ingredients><li>olives</li>
+            <li>barbecue Chicken</li>
+            <li>peri peri Chicken</li>
+          </ingredients>
+              </div>
+            </span>
+            </div>
+            <div class="col-sm-4 p-3 mt-5"><img src="./image/Peppy_Paneer.jpg" class="img-responsive w-100">
+              <span><div class="box">
+                <h3 class="hh">PIZZA MANIA</h3>
+
+                <button class="but">View Details</button>
+                <button onclick= "Details"></button>
+                <price>100 Rs</price>
+          <ingredients><li>olives</li>
+            <li>Corn</li>
+            <li>Cheese</li>
+          </ingredients>
+              </div>
+            </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  
+    <div class="container-fluid">
+      <h2 class="mm1 mt-5">BEST SELLER</h2><hr>
+      <div class="row">
+        <div class="col-10 mx-auto">
+          <div class="row">
+            <div class="col-3 p-3 mt-5 Re"><img src="./image/bestseller.jpg" class="img-responsive w-100 h-100">
+              <span><div class="box1">
+                <h3 class="hh1">CHESSY CORN</h3>
+                
+              </div>
+            </span>
+          </div>
+            <div class="col-sm-3 p-3 mt-5"><img src="./image/Farmhouse.jpg" class="img-responsive w-100 h-100">
+              <span><div class="box1">
+                <h3 class="hh1">FARM HOUSE</h3>
+                
+              </div>
+            </span>
+            </div>
+            <div class="col-sm-3 p-3 mt-5"><img src="./image/Chicken_Golden_Delight.jpg" class="img-responsive w-100 h-100">
+              <span><div class="box1">
+                <h3 class="hh1">CHICKEN MAXIMUS</h3>
+               
+              </div>
+            </span>
+            </div>
+            <div class="col-sm-3 p-3 mt-5"><img src="./image/garlic-bread.jpg" class="img-responsive w-100 h-100">
+              <span><div class="box1">
+                <h3 class="hh1">STUFFED GARLIC BREADSTICK</h3>
+                
+              </div>
+            </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+   
+    <div class="container-fluid">
+      <h2 class="mm1 mt-5">MEALS AND COMBOS</h2><hr>
+      <div class="row">
+        <div class="col-10 mx-auto">
+          <div class="row">
+            <div class="col-sm-6 p-3 mt-5"><img src="./image/combos.jpg" class="img-responsive w-100 h-100">
+              <span><div class="box1">
+                <h3 class="hh1">Save upto 100</h3>
+              
+              </div>
+            </span>
+            </div>
+            <div class="col-sm-6 p-3 mt-5"><img src="./image/bu1get1.jpg" class="img-responsive w-100 h-100">
+              <span><div class="box1">
+                <h3 class="hh1">Buy1 Get1 Free</h3>
+                
+              </div>
+            </span>
+          </div>
+            <div class="col-sm-6 p-3 mt-5 sp"><img src="./image/spiced_doubled.jpg" class="img-responsive w-100 h-100 mrt">
+              <span><div class="box2">
+                <h3 class="hh1">Chicken Lovers</h3>
+               
+              </div>
+            </span>
+            </div>
+            <div class="col-sm-6 p-3 mt-5 sp"><img src="./image/50percent.jpg" class="img-responsive w-100 h-100 mrt">
+              <span><div class="box2">
+                <h3 class="hh1">Upto 50% off</h3>
+               
+              </div>
+            </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  
+    <div class="container-fluid">
+      <h2 class="mm1 mt-5">DESSERTS</h2><hr>
+      <div class="row mm3">
+        <div class="col-10 mx-auto">
+          <div class="row">
+            <div class="col-3 p-3 mt-5 Re"><img src="./image/mousse.jpg" class="img-responsive w-100 h-100">
+              <span><div class="box1">
+                <h3 class="hh1">Butterscotch Mousse Cake</h3>
+                
+              </div>
+            </span>
+          </div>
+            <div class="col-sm-3 p-3 mt-5"><img src="./image/choco-lava-cake-771.jpg" class="img-responsive w-100 h-100">
+              <span><div class="box1">
+                <h3 class="hh1">Choco Lava</h3>
+                
+              </div>
+            </span>
+            </div>
+            <div class="col-sm-3 p-3 mt-5"><img src="./image/redvelvet.jpg" class="img-responsive w-100 h-100">
+              <span><div class="box1">
+                <h3 class="hh1">Red Velvet Cake</h3>
+               
+              </div>
+            </span>
+            </div>
+            <div class="col-sm-3 p-3 mt-5"><img src="./image/shakes.jpg" class="img-responsive w-100 h-100">
+              <span><div class="box1">
+                <h3 class="hh1">Shakes Up</h3>
+                
+              </div>
+            </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <footer class="foot">
+      <div class="container-fluid">
+        <div class="row">
+  
+          <div class="col-12 col-sm-6  p-5">
+            <h1 style="color:blue"> Dominos Pizza</span> </h1>
+            <div  style="margin-top:90px">
+              <img src="./image/appstore.jpg"  width="139" height="44">
+              <img src="./image/playstore.jpg" width="139" height="44">
+            </div>
+          </div>
+  
+          <div class="col-12 col-sm-3  p-4">
+  
+            <ul class="list-unstyled ">
+              <li class="pt-3"><a href="#" class="text-white">About Dominos</a></li>
+              <li class="pt-3"><a href="#" class="text-white">Read our blog</a></li>
+              <li class="pt-3"><a href="#" class="text-white">Buy gift cards</a></li>
+              <li class="pt-3"><a href="#" class="text-white">Sign up to deliver</a></li>
+              <li class="pt-3"><a href="#" class="text-white">Add your restaurant</a></li>
+  
+            </ul>
+  
+          </div>
+  
+          <div class="col-12 col-sm-3  p-4">
+            <ul class="list-unstyled ">
+              <li class="pt-3"><a href="#" class="text-white">Get Help</a></li>
+              <li class="pt-3"><a href="#" class="text-white">Read FAQs</a></li>
+              <li class="pt-3"><a href="#" class="text-white">View all cities</a></li>
+              <li class="pt-3"><a href="#" class="text-white">Restaurant near me</a></li>
+              <li class="pt-3"><a href="#" class="text-white">English</a></li>
+  
+            </ul>
+            
+          </div>
+  
+  <div class="col-12">
+      
+  </div>
+          <div class="col-12 col-sm-6 ">
+            
+          </div>
+          <div class="col-12 col-sm-6">
+            <ul class="list-unstyled">
+              <li class="list-inline-item"><a href="#" class="text-white"> Privacy Policy</a></li>
+              <li class="list-inline-item ml-5"> <a href="#"  class="text-white"> Terms of use</a></li>
+              <li class="list-inline-item ml-5" ><a href="#"  class="text-white"> Pricing</a></li>
+            </ul>
+          </div>
+        </div>
+       
+      </div>  
+    </footer>
+    </body>
+    </html>
